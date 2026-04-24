@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1777042832644",
+    "email": "test@gmail.com",
+    "password": "1234",
+    "role": "patient"
+  },
+  {
+    "id": "1777042997042",
+    "email": "pharm@gmail.com",
+    "password": "1234",
+    "role": "pharmacy"
+  },
+  {
+    "id": "1777043389284",
+    "email": "doc@gmail.com",
+    "password": "1234",
+    "role": "doctor"
+  }
+]

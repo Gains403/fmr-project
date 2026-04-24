@@ -37,7 +37,7 @@ export default function AboutSection() {
         {/* Left - Image */}
         <motion.div variants={itemLeft} className="flex justify-center">
           <Image
-            src="/about-healthcare.jpg"
+            src="/images/fmr-telepharmacy.png"
             alt="FindMeRX in action"
             width={500}
             height={400}
@@ -58,7 +58,7 @@ export default function AboutSection() {
           </p>
 
           <ul className="space-y-4 text-gray-700">
-            <li>✅ Trusted by 500+ pharmacies nationwide</li>
+            
             <li>✅ Real-time access to verified medications</li>
             <li>✅ Telepharmacy for remote consultations</li>
             <li>✅ Seamless patient-doctor-pharmacy coordination</li>

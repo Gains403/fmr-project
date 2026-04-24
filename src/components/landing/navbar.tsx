@@ -38,7 +38,7 @@ export default function Navbar() {
 
           {/* Auth links */}
           <a
-            href="/auth/signin"
+            href="/login"
             className="hidden md:inline text-gray-600 hover:text-green-500 font-medium"
           >
             Sign In
@@ -47,7 +47,7 @@ export default function Navbar() {
             asChild
             className="hidden md:inline bg-green-400 hover:bg-green-500 text-white"
           >
-            <a href="/auth/register">Register</a>
+            <a href="/register">Register</a>
           </Button>
 
           {/* Mobile Menu Button */}
@@ -73,7 +73,7 @@ export default function Navbar() {
               </li>
             ))}
             <a
-              href="/auth/signin"
+              href="/login"
               className="text-gray-600 hover:text-green-500 font-medium"
               onClick={() => setOpen(false)}
             >
@@ -83,7 +83,7 @@ export default function Navbar() {
               asChild
               className="bg-green-400 hover:bg-green-500 text-white"
             >
-              <a href="/auth/register">Register</a>
+              <a href="/register">Register</a>
             </Button>
           </ul>
         </div>
