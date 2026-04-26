@@ -40,7 +40,7 @@ export default function PatientHero() {
           <div className="flex flex-col sm:flex-row gap-3">
 
             <Button
-              onClick={() => router.push("/patient?ai=true")}
+              onClick={() => router.push("/patient/triage")}
               className="bg-green-600 hover:bg-green-700 text-white px-6 py-5"
             >
               Start AI Triage

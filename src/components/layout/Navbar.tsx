@@ -24,9 +24,9 @@ export default function Navbar() {
   const tabs = [
     { href: "/patient", label: "Home" },
     { href: "/pharmacy", label: "Pharmacies" },
-    { href: "/doctor", label: "Doctors" },
+    { href: "/patient/hospitals", label: "Doctors" },
     { href: "/lab", label: "Labs" },
-    { href: "/patient?ai=true", label: "AI Triage" },
+    { href: "/patient/triage", label: "AI Triage" },
   ]
 
   const handleLogout = () => {

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "CityCare Clinic",
+    "distance": "1.8 km",
+    "type": "private"
+  },
+  {
+    "id": 2,
+    "name": "Lagos General Hospital",
+    "distance": "3.2 km",
+    "type": "government"
+  },
+  {
+    "id": 3,
+    "name": "GreenLife Medical Center",
+    "distance": "2.5 km",
+    "type": "private"
+  },
+  {
+    "id": 4,
+    "name": "Unity Health Clinic",
+    "distance": "4.1 km",
+    "type": "government"
+  },
+  {
+    "id": 5,
+    "name": "WellSpring Hospital",
+    "distance": "2.0 km",
+    "type": "private"
+  }
+]

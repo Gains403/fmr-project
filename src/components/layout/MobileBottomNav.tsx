@@ -10,9 +10,9 @@ export default function MobileBottomNav() {
   const tabs = [
     { href: "/patient", icon: Home },
     { href: "/pharmacy", icon: Hospital },
-    { href: "/doctor", icon: Stethoscope },
+    { href: "/patient/hospitals", icon: Stethoscope },
     { href: "/lab", icon: FlaskConical },
-    { href: "/patient?ai=true", icon: Bot },
+    { href: "/patient/triage", icon: Bot },
   ]
 
   return (
